@@ -4,3 +4,4 @@ IP-CIDR,222.29.128.0/19,no-resolve
 IP-CIDR,115.27.0.0/16,no-resolve
 IP-CIDR,202.112.7.0/24,no-resolve
 IP-CIDR,202.112.8.0/24,no-resolve
+DOMAIN-SUFFIX,pku.edu.cn
