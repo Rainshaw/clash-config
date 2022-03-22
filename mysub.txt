@@ -1,2 +1,1 @@
-tg://http?server=127.0.0.1&port=2801&remarks=ssh
-tg://socks?server=192.168.197.234&port=1080&remarks=zerotier
+dGc6Ly9odHRwP3NlcnZlcj0xMjcuMC4wLjEmcG9ydD0yODAxJnJlbWFya3M9c3NoCnRnOi8vc29ja3M/c2VydmVyPTE5Mi4xNjguMTk3LjIzNCZwb3J0PTEwODAmcmVtYXJrcz16ZXJvdGllcg==
