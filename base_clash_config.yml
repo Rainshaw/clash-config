@@ -2,25 +2,25 @@ experimental:
   ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
 dns:
   nameserver:
-    - 223.5.5.5 # 阿里DNS
-    - 180.76.76.76 # 百度DNS
-    - 119.29.29.29 # 腾讯DNS
-    - 114.114.114.114 # 114DNS
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
+  - 223.5.5.5 # 阿里DNS
+  - 180.76.76.76 # 百度DNS
+  - 119.29.29.29 # 腾讯DNS
+  - 114.114.114.114 # 114DNS
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
   fallback:
-    - tls://8.8.4.4:853#DNS
-    - https://dns.cloudflare.com/dns-query#DNS
-    - tls://dns.google:853#DNS
-    - https://1.1.1.1/dns-query#DNS
-    - tls://1.1.1.1:853#DNS
-    - tls://8.8.8.8:853#DNS
-    - 8.8.8.8#DNS # 谷歌DNS
-    - 1.1.1.1#DNS # Cloudflare DNS
-    - tls://dns.rubyfish.cn:853#DNS
-    - tls://1.0.0.1:853#DNS
-    - https://dns.rubyfish.cn/dns-query#DNS
-    - https://dns.google/dns-query#DNS
+  - tls://8.8.4.4:853#DNS
+  - https://dns.cloudflare.com/dns-query#DNS
+  - tls://dns.google:853#DNS
+  - https://1.1.1.1/dns-query#DNS
+  - tls://1.1.1.1:853#DNS
+  - tls://8.8.8.8:853#DNS
+  - 8.8.8.8#DNS # 谷歌DNS
+  - 1.1.1.1#DNS # Cloudflare DNS
+  - tls://dns.rubyfish.cn:853#DNS
+  - tls://1.0.0.1:853#DNS
+  - https://dns.rubyfish.cn/dns-query#DNS
+  - https://dns.google/dns-query#DNS
 # 1. clash DNS 请求逻辑：
 #   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
 #   (2) clash 将选取 nameserver 列表内，解析最快的结果。
